@@ -13,6 +13,7 @@ public class StausUser
 {
    public void statusDetail(String code)
 {
+    
 switch(code.toUpperCase())
         {
         case "ZERO": System.out.println("REJECTED");
